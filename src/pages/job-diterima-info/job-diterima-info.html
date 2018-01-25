@@ -1,0 +1,24 @@
+<!--
+  Generated template for the JobDiterimaInfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Info Kerja Diterima</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <img src="{{jobGambar}}">
+  <p>{{ jobServis }}</p>
+  <p>{{ jobAlamatPenuh }}</p>
+  <p>{{ jobBeratPakaian }}</p>
+  <p>{{ jobJumlahHarga }}</p>
+  <button  ion-button large (click)="acceptJob(nStatus,nStatusID)">
+    Proceed
+  </button>
+</ion-content>
